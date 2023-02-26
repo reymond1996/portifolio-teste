@@ -1,0 +1,14 @@
+﻿.block {
+    margin-bottom: 20px;
+}
+.button-primay {
+    background-color: var(--primary);
+    border-color: var(--secondary);
+}
+.button{
+    font-weight:900;
+    
+    padding-left:20px;
+    padding-right:20px;
+    text-transform:lowercase;
+}

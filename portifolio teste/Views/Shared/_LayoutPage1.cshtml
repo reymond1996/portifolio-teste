@@ -1,0 +1,205 @@
+﻿@{ 
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&display=swap" rel="stylesheet"/>
+
+    
+    <link href="@Url.Content("~/Content/bootstrap.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/css/custom.css")" rel="stylesheet" type="text/css" />
+    @RenderSection("styles", false)
+<title>@ViewBag.Title Toxst</title>
+  
+</head>
+<body>
+    <div class="container">
+        <div class="row ">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light block">
+
+
+                <div class="col-3">
+                    <a class="navbar-brand col-md-3 " href="#"><img src="~/assets/logo.svg" alt="..." /></a>
+
+                </div>
+
+                <div class="col-6 d-flex flex-column">
+                    <div class="input-group flex-nowrap">
+
+                        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+                        <span class="input-group-text" id="addon-wrapping"><img src="~/assets/search.svg" /></span>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent ">
+                        <ul class="navbar-nav a_TextToUpper">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Noticias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Loja</a>
+                            </li>
+
+
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <div class="col-3 col-md-3">
+                    <!--<i class="fa-sharp fa-solid fa-user"></i>-->
+                    <h4><img src="~/assets/user-solid.svg" style="height:60px; width:80px; border:1px solid ;border-color:blue;" /> fazer login</h4>
+                </div>
+
+            </nav>
+        </div>
+
+
+
+
+
+
+        <div class="row">
+
+            <div class="row col-md-5 col-6" style="margin:10px">
+
+                <div class="card  col-2 col-lg-3" style="width: 25rem; margin:5px;">
+                    <img src="~/assets/destaque2.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col-2 col-lg-3" style="width: 25rem; margin:5px;">
+                    <img src="~/assets/destaque3.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col-2 col-lg-3" style="width: 25rem; margin:5px;">
+                    <img src="~/assets/destaque4.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card col-2 col-lg-3" style="width: 25rem;margin:5px;">
+                    <img src="~/assets/clientes/phone.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="" class="btn button-primay">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-6 row align-items-end flex-column">
+                <h2 class="mb-0" style="text-align:center">Aproveita e se cadastrar para entrar na empresa</h2>
+                <img src="~/assets/pessoalogo.jpg" />
+                <a href="#" class="btn button-primay button mb-0">Cadastrar</a>
+
+            </div>
+        </div>
+
+            <div class="row d-flex justify-content-end block">
+                <div class="col-lg-4 d-flex flex-column align-items-center">
+                    <img src="~/assets/clientes/logo3.svg" style="width:140px; height:140px;" />
+                    <h2 class="mt-5">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Cabeçalho</font>
+                        </font>
+                    </h2>
+                    <p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Algum conteúdo de espaço reservado representativo para as três colunas de texto abaixo do carrossel. </font>
+                            <font style="vertical-align: inherit;">Esta é a primeira coluna.</font>
+                        </font>
+                    </p>
+                    <p>
+                        <a class="btn btn-secondary" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Ver detalhes "</font>
+                            </font>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column align-items-center">
+                    <img src="~/assets/clientes/logo2.svg" style="width:140px; height:140px;" /> 
+
+                    <h2 class="mt-5">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Cabeçalho</font>
+                        </font>
+                    </h2>
+
+                    <p>
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">Outro pedaço interessante de conteúdo de espaço reservado representativo. </font>
+                            <font style="vertical-align: inherit;">Desta vez, passamos para a segunda coluna.</font>
+                        </font>
+                    </p>
+                    <p>
+                        <a class="btn btn-secondary" href="#">
+                            <font style="vertical-align: inherit;">
+                                <font style="vertical-align: inherit;">Ver detalhes "</font>
+                            </font>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-lg-4 d-flex flex-column align-items-center">
+                    <img src="~/assets/clientes/logo1.svg" style="width:140px; height:140px;" />
+
+                    <h2 class="mt-5"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Cabeçalho</font></font></h2>
+                    <p><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">E, por último, a terceira coluna do conteúdo representativo do espaço reservado.</font></font></p>
+                    <p><a class="btn btn-secondary" href="#"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ver detalhes "</font></font></a></p>
+            </div>
+        </div>
+        
+        <div>
+            @RenderBody()
+
+
+        </div>
+        </div>
+    <div class="container-fluid">
+        <div class="panel-footer cor_style">
+            <div class="col-12 mt-5 d-flex flex-column align-items-center">
+                <img src="~/assets/footerlogo.png" />
+                <br />
+                <br />
+                <div class="align-items-center">
+
+                    <img src="~/assets/instagram.svg" />
+                    <img src="~/assets/facebook.svg" />
+                    <img src="~/assets/twitter.svg" />
+                </div>
+                <h1>Pense e Ajude</h1>
+                <p>Pense em como nos podemos melhoras nos ajude siga nos instagram e comentar como melhorar</p>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="@Url.Content("~/Scripts/jquery-3.6.1.js")"></script>
+    <script src="@Url.Content("~/Scripts/bootstrap.js")"></script>
+    @RenderSection("ScriptPage", false)
+</body>
+</html>
